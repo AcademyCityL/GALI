@@ -72,7 +72,7 @@ def wrap_with_model_special_input(model_name, prompt, tokenizer, device, dataset
         else:
             # print("prompt", len(prompt))
             if sys_prompt is None:
-                sys_prompt = "You are a pirate chatbot who always responds in pirate speak!"
+                sys_prompt = "You are a chatbot who always responds in polite speak."
 
             messages = [
             {"role": "system", "content": "{}".format(sys_prompt)},
