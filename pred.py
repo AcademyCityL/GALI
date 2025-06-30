@@ -319,6 +319,7 @@ def passkey_retrieval_worker(rank, world_size, max_pe, out_path, n_garbage, stri
         output_attentions = False
 
     correct = 0
+    n_garbage = int(3.75 * n_garbage // 1024 * 1024) # approimate the real n_garbage
     for i in range(times):
         prompt, answer = generate_prompt_landmark(n_garbage, seed)
 
