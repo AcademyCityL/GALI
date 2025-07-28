@@ -6,6 +6,7 @@ Implementation of the training-free length extrapolation method GALI in [A Train
 
 ## Updates
 - [05/02/2024]:🎉 Open source!
+- next: Add flash attention support for GALI.
 
 
 ## Requirements:
