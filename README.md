@@ -196,7 +196,7 @@ If you find our method useful, please kindly cite our paper.
 }
 ```
 
-AI tools website: [lazykit.aihelpshumans.com](lazykit.aihelpshumans.com)
+AI tools website: [lazykit.aihelpshumans.com](https://lazykit.aihelpshumans.com)
 ## 4. Contributing
 We welcome contributions from the research community to improve the effeicency of GALI. If you have any idea or would like to report a bug, please open an issue or submit a pull request.
 
